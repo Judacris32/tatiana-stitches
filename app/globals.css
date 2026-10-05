@@ -139,12 +139,9 @@ body {
   }
 }
 
-/* photo marquee: slow drift, pauses on hover */
+/* photo marquee: slow continuous drift */
 .photo-marquee {
   animation: marquee 60s linear infinite;
-}
-.photo-marquee-wrap:hover .photo-marquee {
-  animation-play-state: paused;
 }
 @media (prefers-reduced-motion: reduce) {
   .photo-marquee {

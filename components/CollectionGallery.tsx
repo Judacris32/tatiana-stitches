@@ -69,7 +69,7 @@ export default function CollectionGallery({ items }: { items: Work[] }) {
         </div>
       </div>
 
-      {/* Chapters */}
+      {/* Collections */}
       <AnimatePresence mode="wait">
         <motion.div
           key={active}
@@ -88,7 +88,7 @@ export default function CollectionGallery({ items }: { items: Work[] }) {
                     <span className="font-display text-5xl leading-none text-coral/85 md:text-7xl">{pad(g.n)}</span>
                     <div>
                       <p className="eyebrow text-cognac">
-                        Chapter {g.n} of {groups.length}
+                        Collection {g.n} of {groups.length}
                       </p>
                       <h2 className="mt-2 font-display text-3xl leading-tight tracking-wide md:text-5xl">{g.label}</h2>
                     </div>
@@ -122,7 +122,7 @@ export default function CollectionGallery({ items }: { items: Work[] }) {
                     </button>
                   ) : !preview ? (
                     <button onClick={() => pick('all')} className="btn btn-ghost-dark">
-                      <ArrowLeft size={16} /> Back to every chapter
+                      <ArrowLeft size={16} /> Back to all collections
                     </button>
                   ) : null}
                 </div>

@@ -12,7 +12,7 @@ import { works } from '@/lib/works';
 export const metadata: Metadata = {
   title: 'Collections',
   description:
-    'Every look from Tatiana Stitches, sorted into chapters. Campaigns, heritage wear, senators, suits, finished pieces, details and a look behind the scenes.',
+    'Every look from Tatiana Stitches, sorted into collections. Campaigns, heritage wear, senators, suits, finished pieces, details and a look behind the scenes.',
 };
 
 const looks = works.filter((w) => w.cat !== 'studio');
@@ -26,7 +26,7 @@ export default function CollectionsPage() {
         eyebrow="The lookbook"
         title="Collections"
         italic="worn by real men."
-        intro="No catalogue models here. These are our clients, our team and our campaign shoots, all wearing pieces cut in our studio. Pick a chapter and take your time."
+        intro="No catalogue models here. These are our clients, our team and our campaign shoots, all wearing pieces cut in our studio. Pick a collection and take your time."
       />
 
       <section className="grain bg-bone pb-10 pt-10 md:pt-14">
