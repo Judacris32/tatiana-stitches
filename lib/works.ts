@@ -109,8 +109,8 @@ export const works: Work[] = [
   { src: '/images/work/ts-111.webp', w: 1400, h: 1750, alt: "Black and white agbada with a pleated chest panel", cat: 'pieces' },
   // details (11)
   { src: '/images/work/ts-117.webp', w: 1400, h: 1750, alt: "Blue agbada neckline with white embroidery", cat: 'details' },
-  { src: '/images/work/ts-118.webp', w: 1400, h: 1746, alt: "Woven cap in gold, brown and black", cat: 'details' },
   { src: '/images/work/ts-116.webp', w: 1400, h: 1750, alt: "Hand stitched shoulder on a blue agbada", cat: 'details' },
+  { src: '/images/work/ts-118.webp', w: 1400, h: 1746, alt: "Woven cap in gold, brown and black", cat: 'details' },
   { src: '/images/work/ts-119.webp', w: 1400, h: 1746, alt: "Patterned cap on a white mannequin", cat: 'details' },
   { src: '/images/work/ts-112.webp', w: 1400, h: 1750, alt: "Striped shirts on the rail with Tatiana labels", cat: 'details' },
   { src: '/images/work/ts-113.webp', w: 1080, h: 1337, alt: "Rail of black shirts with gold embroidery", cat: 'details' },

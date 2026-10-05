@@ -57,8 +57,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-bone/10">
-        <div className="mx-auto max-w-[1400px] px-5 py-6 text-xs text-bone/45 md:px-10">
+        <div className="mx-auto flex max-w-[1400px] flex-col gap-2 px-5 py-6 text-xs text-bone/45 md:flex-row md:justify-between md:px-10">
           <p>© {new Date().getFullYear()} Tatiana Stitches. All rights reserved.</p>
+          <p>
+            Website by <span className="text-bone/70">@Judacris_Jude </span>
+          </p>
         </div>
       </div>
     </footer>
