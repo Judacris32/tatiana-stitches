@@ -23,7 +23,7 @@ const lines = [
     pos: 'center 30%',
   },
   {
-    title: 'Campaigns',
+    title: 'Ankara, Kente & Prints',
     note: 'Kente, Ankara and loud prints, worn with attitude. Our studio shoots, where we push the craft a little further each season.',
     img: '/images/work/ts-30.webp',
     pos: 'center 30%',
@@ -57,7 +57,7 @@ export default function Home() {
 
       {/* Intro */}
       <section className="grain bg-bone py-24 md:py-36">
-        <div className="mx-auto grid max-w-[1400px] items-center gap-16 px-5 md:grid-cols-2 md:px-10">
+        <div className="mx-auto grid max-w-[1400px] items-center gap-16 px-5 md:grid-cols-2 md:px-10 text-justify">
           <div>
             <SectionHeading eyebrow="The house on Awka Road" title="Onitsha tailoring," italic="worn with pride.">
               <p>
