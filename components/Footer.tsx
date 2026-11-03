@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="md:col-span-5">
           <Image src="/images/brand/logo-light.png" alt="Tatiana Stitches" width={1034} height={491} className="w-40" />
           <p className="mt-8 max-w-sm font-serif text-xl italic leading-snug text-bone/80">
-            Cut in Onitsha, worn wherever the occasion calls for a man to be remembered.
+            Dressed for the room before you walk in.
           </p>
         </div>
 

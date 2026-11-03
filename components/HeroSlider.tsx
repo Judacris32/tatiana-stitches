@@ -70,7 +70,7 @@ export default function HeroSlider() {
           className="flex items-center justify-center gap-4"
         >
           <span className="h-px w-10 bg-coral-light" />
-          <p className="eyebrow text-stone">Bespoke tailoring from Onitsha</p>
+          <p className="eyebrow text-stone">Bespoke tailoring for clients across Nigeria and abroad</p>
           <span className="h-px w-10 bg-coral-light" />
         </motion.div>
 

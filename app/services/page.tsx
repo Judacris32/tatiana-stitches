@@ -10,7 +10,7 @@ import { site } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Custom tailoring, senators, agbada, suits for men and women, African textile styling, wedding party outfits and alterations in Onitsha.',
+    'Custom tailoring, senators, agbada, suits for men and women, African textile styling, wedding party outfits and alterations, for clients across Nigeria and abroad.',
 };
 
 const services = [
@@ -79,8 +79,8 @@ const faqs = [
     a: 'Yes. Many of our clients do. We will check that you have enough yards for the style and advise you if something else would work better.',
   },
   {
-    q: 'I am not in Onitsha. Can you still help?',
-    a: 'Send us a message with where you are and what you need. We will talk you through measurements and what is possible for your location.',
+    q: 'I don\'t live near the studio. Can you still make for me?',
+    a: 'Yes. Many of our clients live in other parts of Nigeria or abroad. Send us a message with where you are and what you need, and we will guide you through your measurements and delivery.',
   },
   {
     q: 'Do you make for women and children too?',

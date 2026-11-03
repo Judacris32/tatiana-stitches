@@ -63,8 +63,8 @@ export default function AwardsPage() {
               </p>
               <p className="mt-5">
                 AFAA is a Pan African platform that rewards fashion and art creatives from across the continent,
-                connecting fashion, culture, collaboration and enterprise. For a tailoring house from Onitsha, it was a
-                proud night.
+                connecting fashion, culture, collaboration and enterprise. For a Nigerian tailoring house with clients around
+                the world, it was a proud night.
               </p>
             </SectionHeading>
           </div>
@@ -169,11 +169,11 @@ export default function AwardsPage() {
       {/* Billboard */}
       <section className="relative overflow-hidden bg-ink text-bone">
         <div className="relative h-[70vh] min-h-[460px]">
-          <Image src="/images/work/ts-61.webp" alt="Tatiana Stitches billboard in Onitsha" fill sizes="100vw" className="object-cover object-right" />
+          <Image src="/images/work/ts-61.webp" alt="Tatiana Stitches billboard" fill sizes="100vw" className="object-cover object-right" />
           <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/10" />
           <div className="absolute inset-0 flex items-center">
             <Reveal className="mx-auto w-full max-w-[1400px] px-5 md:px-10">
-              <p className="eyebrow text-coral-light">On the streets of Onitsha</p>
+              <p className="eyebrow text-coral-light">Out on the streets</p>
               <h2 className="mt-5 max-w-xl font-display text-4xl leading-tight md:text-6xl">
                 Need a new garment? <span className="font-serif italic text-stone">You know where to find us.</span>
               </h2>

@@ -19,7 +19,7 @@ export default function SectionHeading({
     <Reveal className={center ? 'mx-auto max-w-3xl text-center' : 'max-w-3xl'}>
       <p className={`eyebrow ${light ? 'text-coral-light' : 'text-coral'}`}>{eyebrow}</p>
       <h2
-        className={`mt-5 font-display text-4xl leading-[1.08] tracking-wide md:text-6xl ${light ? 'text-bone' : 'text-ink'}`}
+        className={`mt-5 font-display text-4xl leading-[1.08] tracking-wide md:text-6xl ${center ? 'text-center' : 'text-left'} ${light ? 'text-bone' : 'text-ink'}`}
       >
         {title}{' '}
         {italic && <span className={`font-serif italic ${light ? 'text-stone' : 'text-cognac'}`}>{italic}</span>}

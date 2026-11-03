@@ -8,7 +8,7 @@ export default function CtaBand({
   image = '/images/work/ts-13.webp',
   title = 'Your next outfit starts',
   italic = 'with a tape measure.',
-  text = 'Walk into our studio on Awka Road or send us a message. We will talk through the occasion, take your measurements and get cutting.',
+  text = 'Visit the studio or send us a message from wherever you are. We will talk through the occasion, take your measurements and get cutting.',
 }: {
   image?: string;
   title?: string;

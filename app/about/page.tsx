@@ -12,7 +12,7 @@ import { site } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: `Meet ${site.founder}, founder and creative director of Tatiana Stitches, and step inside the Onitsha studio.`,
+  description: `Meet ${site.founder}, founder and creative director of Tatiana Stitches, and step inside the studio.`,
 };
 
 const values = [
@@ -77,20 +77,20 @@ export default function AboutPage() {
           <div className="md:col-span-7 text-justify">
             <SectionHeading light eyebrow="The man behind the needle" title={site.founder}>
               <p>
-                Chigbo Vitalis Agbo is a fashion designer, creative director and entrepreneur from the South East of
-                Nigeria. He started Tatiana Stitches with a simple belief. A man should be able to walk into a room in
-                clothes that say exactly who he is, and those clothes should be made right here at home.
+                I&apos;m a Nigerian fashion designer, creative director and entrepreneur. I started Tatiana Stitches with
+                one simple belief. A man should be able to walk into any room in clothes that say exactly who he is,
+                and those clothes can be made right here at home, to the same standard as anywhere in the world.
               </p>
               <p className="mt-5">
-                Today the studio on Awka Road dresses grooms and their friends, chiefs at their title takings,
-                musicians on stage and businessmen who want something better than off the rack. In 2024 his work
-                earned him the Fashion Creative Director Award at the African Fashion and Arts Award in Cape Town,
-                and a place on the AFAA 100 list of distinguished African creatives.
+                Today we dress grooms and their friends, chiefs at their title takings, musicians on stage and
+                businessmen who want something better than off the rack. In 2024 that work took me to Cape Town, where
+                I received the Fashion Creative Director Award at the African Fashion and Arts Award and was named on
+                the AFAA 100 list of distinguished African creatives.
               </p>
               <p className="mt-5">
-                Back home, the Faculty of Business Students&apos; Association at the University of Nigeria honoured him
-                with an Award of Recognition for his contribution to business and fashion in the South East, and put
-                him on the cover of Business Beacon magazine.
+                Closer to home, the Faculty of Business Students&apos; Association at the University of Nigeria honoured
+                me with an Award of Recognition for my contribution to business and fashion in the South East, and put
+                me on the cover of Business Beacon magazine. Every one of those moments started at a cutting table.
               </p>
             </SectionHeading>
             <Reveal delay={0.2} className="mt-10">

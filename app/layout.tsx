@@ -13,14 +13,14 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Tatiana Stitches | Bespoke Tailoring in Onitsha',
+    default: 'Tatiana Stitches | Bespoke African Tailoring',
     template: '%s | Tatiana Stitches',
   },
   description:
-    'Tatiana Stitches is the Onitsha tailoring studio of award winning creative director Chigbo Vitalis Agbo. Senators, agbada, isiagu and African textile styling, cut to your measure.',
+    'Tatiana Stitches is the tailoring house of award winning creative director Chigbo Vitalis Agbo, dressing clients across Nigeria and abroad. Senators, agbada, isiagu and African textile styling, cut to your measure.',
   openGraph: {
     title: 'Tatiana Stitches',
-    description: 'Bespoke African menswear and tailoring from Onitsha, Nigeria.',
+    description: 'Bespoke African menswear and tailoring for clients across Nigeria and abroad.',
     images: ['/images/work/ts-52.webp'],
   },
 };

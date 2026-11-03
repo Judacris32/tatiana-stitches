@@ -78,9 +78,9 @@ export default function ContactPage() {
         <div className="mx-auto grid max-w-[1400px] md:grid-cols-12">
           <div className="flex flex-col justify-center px-5 py-16 md:col-span-4 md:px-10">
             <Reveal>
-              <p className="eyebrow text-coral">Find us</p>
+              <p className="eyebrow text-coral">The studio</p>
               <h2 className="mt-5 font-display text-4xl leading-tight">
-                Awka Road, <span className="font-serif italic text-cognac">Onitsha.</span>
+                Wherever you are, <span className="font-serif italic text-cognac">start here.</span>
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-ink/75">{site.address}.</p>
               <p className="mt-4 leading-relaxed text-ink/60">

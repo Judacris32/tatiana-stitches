@@ -59,15 +59,15 @@ export default function Home() {
       <section className="grain bg-bone py-24 md:py-36">
         <div className="mx-auto grid max-w-[1400px] items-center gap-16 px-5 md:grid-cols-2 md:px-10 text-justify">
           <div>
-            <SectionHeading eyebrow="The house on Awka Road" title="Onitsha tailoring," italic="worn with pride.">
+            <SectionHeading eyebrow="The house of Tatiana" title="African tailoring," italic="worn with pride.">
               <p>
-                Tatiana Stitches is a tailoring house founded by {site.founder}. From our studio opposite the General
-                Hospital in Onitsha, we cut clothes for grooms and chiefs, for businessmen and musicians, for fathers
-                and the little boys who want to dress exactly like them.
+                I started Tatiana Stitches to make clothes that carry a man into the room before he says a word.
+                Today my team and I dress grooms and chiefs, businessmen and musicians, fathers and the little boys
+                who want to look exactly like them, for clients across Nigeria and around the world.
               </p>
               <p className="mt-5">
-                Our work sits between two worlds. One foot in Igbo heritage, with isiagu, coral and the red cap. The
-                other in modern menswear, with clean senators, relaxed sets and prints that refuse to be quiet.
+                My work lives between two worlds. One foot in African heritage, with isiagu, agbada, coral and the red
+                cap. The other in modern menswear, with clean senators, relaxed sets and prints that refuse to be quiet.
               </p>
             </SectionHeading>
 
